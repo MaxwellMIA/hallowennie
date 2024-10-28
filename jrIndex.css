@@ -109,61 +109,40 @@ h2 {
     text-align: center;
 }
 
-.one {
-    padding: 10%;
-    font-size: 1.8em;
-}
-
 .one p {
-    font-family: "Amatic SC", sans-serif;
-    margin-bottom: 1.2em;
     color: #161f26;
 }
 
-.two {
-    padding: 10%;
-    font-size: 1.8em;
-    color: #b48924;
-}
-
-
 .two p {
-    font-family: "Amatic SC", sans-serif;
-    margin-bottom: 1.2em;
-}
-
-.four {
-    padding: 10%;
-    font-size: 1.8em;
+    color: #b49934;
 }
 
 .four p {
-    font-family: "Amatic SC", sans-serif;
-    margin-bottom: 1.2em;
     color: #161f26;
 }
 
-.five {
-    padding: 10%;
-    font-size: 1.8em;
-}
-
 .five p {
-    font-family: "Amatic SC", sans-serif;
-    margin-bottom: 1.2em;
     color: #925500;
 }
 
-.seven {
-    padding: 10%;
-    font-size: 1.8em;
-}
-
 .seven p {
-    font-family: "Amatic SC", sans-serif;
-    margin-bottom: 1.2em;
     color:#842100;
 }
+
+.seven img, .four img, .one img {
+    height: 200px;
+    width: 200px;
+}
+
+.seven p, .five p, .four p, .two p, .one p {
+    font-family: "Nosifer", sans-serif;
+    margin-bottom: 1.2em;
+}
+
+.seven, .five, .four, .two, .one {
+    padding: 10%;
+    font-size: 1.8em;
+} 
 
 /*------- Responsive Images  -------------*/
 img {
@@ -178,48 +157,45 @@ img {
 }
 
 .one {
-    min-height: 250px;
     background-color:#3c596c;
 }
 
 .two {
-    min-height: 250px;
     background-color:#fbbf31;
 }
 
 .three {
-   min-height: 450px;
    background-image: url(/images/2151827499.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
    background-position-x: left;
-   background-position-y: bottom;
 }
 
 .four {
-    min-height: 250px;
     background-color:#42596a;
 }
 
 .five {
-    min-height: 250px;
     background-color:#FF9505;
 }
 
 .six {
-    min-height: 450px;
     background-image: url(/images/2151827618.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     background-position-x: center;
-    background-position-y: bottom;
     }
 
 .seven {
-    min-height: 250px;
     background-color:#BF3100;
 }
 
+.one, .two, .four, .five, .seven{
+    min-height: 250px;
+}
+
+.three, .six{
+    min-height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+}
 
 /*+++++++++++++++++++++++++++++++++++++++++
      Tablet Media Query
