@@ -41,7 +41,7 @@ a {
 
 h2 {
     font-family: "Rubik Wet Paint", system-ui;
-    color: #410000;
+    color: #00000078;
 }
 
 .logo {
@@ -87,6 +87,11 @@ h2 {
     z-index: 100;
 }
 
+.candy{
+    color: #b91600;
+    font-family: "Nosifer", sans-serif;
+}
+
 #hero {
     background-image: url(images/2151827517.jpg);
     background-repeat:no-repeat;
@@ -109,21 +114,39 @@ h2 {
     text-align: center;
 }
 
-.seven img, .four img, .one img {
-    height: 200px;
-    width: 200px;
+.seven img, .one img{
+    width: 10%  
 }
 
-.seven p, .five p, .four p, .two p, .one p {
+.four img {
+    width: 30%;
+}
+
+.five img {
+    height: 105px;
+    width: 105px;
+}
+
+.seven p, .four p, .one p {
     font-family: "Nosifer", sans-serif;
     margin-bottom: 1.2em;
-    color: #5f0b00;
+    color: #330038;
 }
 
-.seven, .five, .four, .two, .one {
+.five p, .two p{
+    font-family: "Nosifer", sans-serif;
+    margin-bottom: 1.2em;
+    color: #b91600;
+}
+
+.seven, .five, .four, .two, .one .eight {
     padding: 10%;
     font-size: 1.8em;
 } 
+
+.one1, .one3{
+    color: #380000;
+}
 
 /*------- Responsive Images  -------------*/
 img {
@@ -144,9 +167,13 @@ img {
     background-image: url(/images/2151827618.jpg);
     background-position-x: center;
 }
-.one, .two, .four, .five, .seven{
+.one, .four, .seven{
     min-height: 250px;
-    background-color: #b91600;
+    background-color: #4f0056
+}
+
+.five, .two, .eight {
+    background-color: #5f0b00;
 }
 .three, .six{
     min-height: 450px;
@@ -201,6 +228,9 @@ img {
     }
     .seven {
         grid-column: 2/3;
+    }
+    .eight {
+        grid-column: 1/2
     }
 }
 /*---------- End of Tablet Media Query ---------*/
